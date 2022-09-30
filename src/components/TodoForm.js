@@ -34,26 +34,6 @@ function TodoForm(props) {
             title: input
         });
 
-        //Creating Payload
-        let payload = {
-            method: 'POST',
-            body: JSON.stringify({
-                userId: userId || 1,
-                id: Math.floor(Math.random() * 10000),
-                title: input,
-                completed: false
-            }),
-            headers: {
-                'Content-type': 'application/json; charset=UTF-8',
-            },
-        }
-
-        //Sending api post request
-        fetch(`https://jsonplaceholder.typicode.com/todos`, payload)
-            .then((response) => response.json())
-            .then((json) => console.log('Data sent to server Successfully', json))
-            .catch(err => console.log(err));
-
 
         //empty input after add button is clicked
         setInput('');

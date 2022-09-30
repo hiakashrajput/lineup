@@ -21,7 +21,7 @@ body {
 .todo-app {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   width: fit-content;
   min-height: 20rem;
   background: #161a2b;
@@ -30,6 +30,14 @@ body {
   margin-top: 20vh;
   border-radius: 10px;
   padding: 1rem;
+}
+.local-storage-checkbox {
+  color: white;
+  font-size: 0.8rem;
+  text-align: right;
+}
+.local-storage-checkbox input {
+  margin: 0 5px;
 }
 h1 {
   margin: 32px 0;
