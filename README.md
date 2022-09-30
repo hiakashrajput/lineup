@@ -5,6 +5,8 @@
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+#Note: Localstorage will not work in github pages
+
 Use: 
 
 1 There is an checkbox to select whether to send data/todo to api or save it locally.
