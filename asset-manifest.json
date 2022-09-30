@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lineup/static/css/main.3f3da3d0.css",
+    "main.js": "/lineup/static/js/main.45df225f.js",
+    "index.html": "/lineup/index.html",
+    "main.3f3da3d0.css.map": "/lineup/static/css/main.3f3da3d0.css.map",
+    "main.45df225f.js.map": "/lineup/static/js/main.45df225f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f3da3d0.css",
+    "static/js/main.45df225f.js"
+  ]
+}
